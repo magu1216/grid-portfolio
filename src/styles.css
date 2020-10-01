@@ -47,3 +47,67 @@ footer {
 .logo > span {
   font-weight: 700;
 }
+
+.main-grid {
+  display: grid;
+  padding: 10px;
+  height: 100vh;
+  gap: 20px;
+  grid-template: ;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.item1 {
+  grid-column: span 3;
+  grid-row: span 2;
+  background-color: red;
+}
+
+.item2 {
+  grid-column: span 2;
+  grid-row: span 3;
+  background-color: sandybrown;
+}
+
+.item3 {
+  grid-column: span 3;
+  grid-row: span 3;
+  background-color: lightskyblue;
+}
+
+.item4 {
+  grid-column: span 2;
+  grid-row: span 3;
+  background-color: sandybrown;
+}
+
+.item5 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: slateblue;
+}
+
+.item6 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: springgreen;
+}
+
+.item7 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: slateblue;
+}
+
+.item8 {
+  grid-column: span 3;
+  grid-row: span 2;
+  background-color: red;
+}
+
+.item9 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: slateblue;
+}
